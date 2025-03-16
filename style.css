@@ -96,8 +96,13 @@ body{
     .titulo_contatos{
         text-align: center;
     }
-    
+
+    img{
+        width: -webkit-fill-available;
+    }
 }
+    
+
 
 @media screen and (max-width: 1441px){
     
@@ -120,6 +125,10 @@ body{
 }
 
 @media screen and (max-width: 769px){
+
+    .container_foto{
+        padding-bottom: 5%;
+    }
     
     .imagem {
         width: 65%;
@@ -131,7 +140,7 @@ body{
     }
 
     main{
-        margin-left: 18%;
+        margin-left: 20%;
         margin-top: 10px;
     }
 
@@ -147,7 +156,16 @@ body{
 
 @media screen and (max-width: 426px){
     .container_foto {
-        width: 25%;
+        height: 100vh;
+        width: 100%;
+        background-color: #333;
+        color: white;
+        padding-top: 20px;
+        margin-left: 0%;
+        margin-top: 5%;
+        padding-bottom: 75%;
+        overflow-y: inherit;
+        position: inherit;
     }
     
     .imagem {
@@ -156,33 +174,38 @@ body{
     }
 
     a {
-        font-size: 4.5vw;
+        font-size: 9.5vw;
     }
 
     main{
-        margin-left: 22%;
+        margin-left: 0%;
         margin-top: 5px;
     }
 
     .titulo {
-        font-size: 3.8vw;
-        margin-left: 15%;
+        font-size: 5.8vw;
+        margin-left: 0%;
+        padding-top: 4%;
     }
 
     h2{
-        font-size: 4.5vw;
+        font-size: 9.5vw;
     }
 
     h3 {
-        font-size: 5.3vw;
+        font-size: 8.3vw;
     }
 
     p {
-        font-size: 3.9vw;
+        font-size: 6.3vw;
+    }
+    img{
+        width: -webkit-fill-available;
     }
 }
 
 @media screen and (max-width: 376px) {
+
     .container_foto {
         height: 100vh;
         width: 100%;
@@ -221,5 +244,9 @@ body{
 
     h2 {
         font-size: 10vw;
+    }
+
+    img{
+        width: -webkit-fill-available;
     }
 }
